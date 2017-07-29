@@ -1,2 +1,0 @@
-# NetCoreApp
-.Net Core Application

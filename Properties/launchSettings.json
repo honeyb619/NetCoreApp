@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:58203/",
+      "applicationUrl": "http://localhost:62359/",
       "sslPort": 0
     }
   },
@@ -11,19 +11,17 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/Employee",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "TestWebApi": {
+    "TestMvcApp": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/Employee",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:58204"
+      "applicationUrl": "http://localhost:62360"
     }
   }
 }
