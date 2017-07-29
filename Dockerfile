@@ -1,7 +1,7 @@
 FROM microsoft/dotnet:1.0.0-preview2-sdk
 
-ADD WebProject /WebProject/
-WORKDIR /WebProject
+ADD TestMvcApp /TestMvcApp/
+WORKDIR /TestMvcApp
 
 RUN dotnet restore \
     && dotnet build
